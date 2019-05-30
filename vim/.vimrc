@@ -68,7 +68,7 @@ Plugin 'vim-scripts/YankRing.vim'
 
 set background=light
 set t_Co=256
-Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'dracula/vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-scripts/CycleColor'
 
@@ -252,7 +252,7 @@ nnoremap <leader>p :OpenBrowserCurrent<cr>
 if &term =~? 'cygwin'
     colorscheme peachpuff
 elseif has('mac') || &term !~? '^screen'
-    colorscheme PaperColor
+    colorscheme Dracula
 else
     colorscheme peachpuff
 endif
@@ -266,3 +266,4 @@ if has('persistent_undo')
     set undodir=~/.vim/undo/
     set undofile
 endif
+
